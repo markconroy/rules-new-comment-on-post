@@ -18,8 +18,8 @@ function rules_new_comment_on_post_default_rules_configuration() {
       "ON" : { "comment_insert" : [] },
       "DO" : [
         { "mail" : {
-            "to" : "info@adesignforlife.net",
-            "subject" : "New Comment on Mark.ie",
+            "to" : "info@example.com",
+            "subject" : "New Comment on your website",
             "message" : "There was a comment left on [comment:node] by [comment:name] using IP address [comment:hostname] and email address [comment:mail].\\r\\n\\r\\nThe body of the comment says: \\r\\n[comment:body]\\r\\n\\r\\nThe comment can be viewed here:\\r\\n[comment:url]",
             "language" : [ "" ]
           }
